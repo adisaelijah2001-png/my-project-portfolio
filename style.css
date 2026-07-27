@@ -6,10 +6,24 @@
   scroll-behavior: smooth;
 }
 
-body {
-  background: #0f172a;
-  color: white;
-  line-height: 1.5;
+ body {
+    background: #0f172a;
+    color: white;
+    line-height: 1.5;
+
+    animation: fadeIn 1s ease forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 img {
