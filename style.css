@@ -167,10 +167,11 @@ section {
 }
 
 .cross-line {
-  width: 100%;
+  width: 80%;
   height: 1px;
   background-color: #334155;
-  margin: 20px 0;
+  margin: 20px auto;
+
 }
 
 .project-content {
