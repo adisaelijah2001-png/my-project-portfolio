@@ -153,6 +153,12 @@ section {
   text-align: center;
   cursor: pointer;
 }
+.skill-card:hover {
+  background: #38bdf8;
+  color: #0f172a;
+  transform: translateY(-5px);
+  transition: 0.3s ease;
+}
 
 .projects-container {
   display: grid;
